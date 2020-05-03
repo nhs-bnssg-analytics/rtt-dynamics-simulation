@@ -14,7 +14,7 @@ library(tidyr)
 ######################################################################################################################################################
 ### INPUTS ###
 
-clock.starts<-rep(0.8*54784,200+365)  # vector containing num clock starts for each day in considered period
+clock.starts<-rep(54784,200+365)  # vector containing num clock starts for each day in considered period
 clock.stops<-rep(54784,200+365)   # vector containing max num clock stops (capacity) for each day in considered period
 priority.prob<-c(0.33,0.33,0.34)  # probability of being in considered priority classes (sampled on referral)
 priority.points<-c(0,92,190)      # initial points awarded to referrals belonging to each priority class
